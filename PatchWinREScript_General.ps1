@@ -427,5 +427,5 @@ else{
 
 # Cleanup Mount directory in the end
 
-LogMessage("Delete mount direcotry")
+LogMessage("Delete mount directory")
 Remove-Item $mountDir -Recurse
